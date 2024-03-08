@@ -1,0 +1,20 @@
+.btns .add,
+.btns .remove {
+    transition: all 200ms ease-in-out;
+}
+
+.btns .remove {
+    clip-path: circle(0% at 50% 100%);
+}
+
+.btns:hover .remove {
+    clip-path: circle(100% at 50% 100%);
+}
+
+.btns .add {
+    clip-path: circle(100% at 50% 0%);
+}
+
+.btns:hover .add {
+    color: #0f172a;
+}
