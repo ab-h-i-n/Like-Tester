@@ -4,7 +4,7 @@ import { ReactComponent as UnLikeBtn } from '../assets/unlike.svg'
 import { ReactComponent as LikeBtnOutlined } from '../assets/like_outlined.svg'
 import { ReactComponent as UnLikeBtnOutlined } from '../assets/unlike_outlined.svg'
 import './LikeContainer.css'
-const LikeContainer = ({ icon, count }) => {
+const LikeContainer = ({ icon }) => {
 
 
   return (
