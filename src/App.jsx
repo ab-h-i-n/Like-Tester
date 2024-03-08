@@ -87,7 +87,7 @@ function App() {
               toast.info("Likes Reseted!")
             }} className='relative button-effect py-2 px-10  border-2 transition-all border-green-600 text-green-600 hover:text-white rounded font-medium lg:py-5 lg:px-16 lg:text-2xl'>
               Reset
-              <div className=" bg-green-600 w-full py-2 px-10 lg:py-5 lg:px-16 lg:text-2xl absolute bottom-0 top-0 left-0 rounded z-[0] text-white">Reset</div>
+              <div className=" bg-green-600 w-full py-2 px-10 lg:py-5 lg:px-16 lg:text-2xl absolute bottom-0 top-0 left-0 z-[0] text-white">Reset</div>
             </button>
 
         </div>
