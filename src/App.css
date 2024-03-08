@@ -1,0 +1,12 @@
+.button-effect div {
+    transition: all 300ms ease-in-out;
+}
+
+.button-effect div {
+
+    clip-path: circle(0% at 50% 0%);
+}
+
+.button-effect:hover div {
+    clip-path: circle(100% at 50% 0%);
+}

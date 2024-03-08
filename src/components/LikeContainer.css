@@ -1,6 +1,6 @@
 .btns .add,
 .btns .remove {
-    transition: all 200ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 .btns .remove {

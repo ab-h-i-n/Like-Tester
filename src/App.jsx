@@ -36,8 +36,8 @@ function App() {
     if (likeCount <= 10) {
 
       setLikeCount(likeCount + 1);
-      
-      if(likeCount < 10){
+
+      if (likeCount < 10) {
         toast.success("Thanks for the like!")
       }
     }
@@ -50,7 +50,7 @@ function App() {
 
       setLikeCount(likeCount - 1);
 
-      if(likeCount > 0){
+      if (likeCount > 0) {
         toast.error("Dont dislike please!")
       }
     }
@@ -58,7 +58,7 @@ function App() {
 
 
   return (
-    <div className='App min-h-screen  bg-slate-900 '>
+    <div className='App min-h-screen bg-slate-900 '>
 
       <Toaster richColors />
 
@@ -82,10 +82,13 @@ function App() {
 
           {/* rest button */}
 
-          <button onClick={()=>{
-            setLikeCount(0)
-            toast.info("Likes Reseted!")
-            }} className='py-2 px-10 border-2 transition-all border-green-600 text-green-600 hover:bg-green-600 hover:border-slate-900 hover:text-white rounded font-medium'>Reset</button>
+            <button onClick={() => {
+              setLikeCount(0)
+              toast.info("Likes Reseted!")
+            }} className='relative button-effect py-2 px-10  border-2 transition-all border-green-600 text-green-600 hover:text-white rounded font-medium lg:py-5 lg:px-16 lg:text-2xl'>
+              Reset
+              <div className=" bg-green-600 w-full py-2 px-10 lg:py-5 lg:px-16 lg:text-2xl absolute bottom-0 top-0 left-0 rounded z-[0] text-white">Reset</div>
+            </button>
 
         </div>
 

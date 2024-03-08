@@ -13,14 +13,14 @@ const LikeContainer = ({ icon, count }) => {
 
       {icon === "like" ? (
 
-        <div className='w-20 h-20 text-indigo-600 btns relative'>
+        <div className='w-20 h-20 lg:h-40 text-indigo-600 btns relative lg:w-40'>
           <LikeBtnOutlined className='add  absolute' />
           <LikeBtn className='remove absolute' />
         </div>
 
       ) : (
 
-        <div className='w-20 h-20 text-rose-700 btns relative'>
+        <div className='w-20 h-20 lg:h-40 text-rose-700 btns relative lg:w-40'>
           <UnLikeBtnOutlined className='add  absolute' />
           <UnLikeBtn className='remove absolute' />
         </div>
