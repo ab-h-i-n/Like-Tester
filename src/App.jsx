@@ -60,7 +60,7 @@ function App() {
 
       {/* toast  */}
 
-      <Toaster richColors />
+      <Toaster richColors closeButton />
 
       {/* header  */}
 
